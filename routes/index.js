@@ -6,12 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-/* GET home page. */
+/* GET login. */
 router.get('/login', function(req, res, next) {
   res.render('login', { title: 'Express' });
 });
 
-/* GET home page. */
+/* GET registro. */
 router.get('/registro', function(req, res, next) {
   res.render('registro', { title: 'Express' });
 });
@@ -25,4 +25,13 @@ router.get('/colaboracion', function(req, res, next) {
 router.get('/contacto', function(req, res, next) {
   res.render('contacto', { title: 'Express' });
 });
+
+/* GET clasificacion. */
+router.get('/clasificacion', function(req, res, next) {
+  res.render('clasificacion', { title: 'Express' });
+});
+
+
+
+
 module.exports = router;

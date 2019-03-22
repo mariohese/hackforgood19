@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+    
+    <head>
+        <% include header.ejs %>
+    </head>
+
   <body>
-    <h1><%= title %></h1>
-    <p>Welcom index></p>
-  </body>
+    <div align="center">
+        <form method="post" action="/">
+            <p>
+            <label>Nombre de usuario:</label>
+            <input type="text" name="username">
+            </p>
+            <p>
+            <label>Contraseña:</label>
+            <input type="text" name="password">
+            </p>
+            <p>
+            <input type="submit" value="Login">
+            </p>
+            <p>¿Aún no tienes una cuenta?</p>
+            <p>
+                <input type="submit" value="Registrarse">
+            </p>
+
+        
+            <p>Autenticarse con</p>
+            <img src="images/fb-g-tw.png" width="150" height="55">
+        </form>
+    </div>
+    </body> 
+  
 </html>
+
+
