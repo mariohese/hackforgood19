@@ -31,12 +31,12 @@ router.get('/clasificacion', function(req, res, next) {
   res.render('clasificacion', { title: 'Express' });
 });
 
-/* GET clasificacion. */
+/* GET news1. */
 router.get('/news1', function(req, res, next) {
   res.render('news1', { title: 'Express' });
 });
 
-/* GET clasificacion. */
+/* GET review-tips. */
 router.get('/review-tips', function(req, res, next) {
   res.render('review-tips', { title: 'Express' });
 });
