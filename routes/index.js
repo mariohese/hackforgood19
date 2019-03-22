@@ -16,4 +16,13 @@ router.get('/registro', function(req, res, next) {
   res.render('registro', { title: 'Express' });
 });
 
+/* GET colaboracion. */
+router.get('/colaboracion', function(req, res, next) {
+  res.render('colaboracion', { title: 'Express' });
+});
+
+/* GET contacto. */
+router.get('/contacto', function(req, res, next) {
+  res.render('contacto', { title: 'Express' });
+});
 module.exports = router;
