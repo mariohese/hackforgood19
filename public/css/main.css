@@ -85,7 +85,7 @@ html, body {
 }
 
 body {
-   background: #19191b;
+   background: #f2f2f2;
    font-family: "metropolis-regular", sans-serif;
    font-size: 1.6rem;
    font-style: normal;
@@ -503,7 +503,7 @@ dl,
 form,
 .video-container,
 .cl-custom-select {
-   margin-bottom: 3rem;
+   margin-bottom: 1.5rem;
 }
 
 
@@ -657,7 +657,7 @@ input[type="password"],
 textarea,
 select {
    display: block;
-   height: 6rem;
+   height: 3rem;
    padding: 1.5rem 0;
    border: 0;
    outline: none;
@@ -825,7 +825,7 @@ input[type="button"] {
    height: 5.4rem;
    line-height: 5rem;
    padding: 0 3rem;
-   margin: 0 .3rem 1.2rem 0;
+   margin: 1.2rem .3rem 1.2rem 0;
    color: #000000;
    text-decoration: none;
    text-align: center;
@@ -3267,12 +3267,15 @@ html.no-csstransitions .featured {
  *
  * ------------------------------------------------------------------- */
 footer {
-   padding-top: 10.2rem;
-   padding-bottom: 6rem;
+   padding-top: 3.2rem;
+   padding-bottom: 3rem;
    font-size: 1.5rem;
    line-height: 2;
    color: rgba(255, 255, 255, 0.4);
+   background-image: url(../images/Banner_Fondo.svg);
+   background-size: 2000px;
 }
+
 
 footer a {
    color: #FFFFFF;
