@@ -205,6 +205,7 @@ p img {
    margin: 0;
 }
 
+
 p.lead {
    font-family: "metropolis-medium", sans-serif;
    font-size: 2rem;
@@ -2959,12 +2960,13 @@ html.no-csstransitions .featured {
    clear: both;
 }
 
-.masonry .grid-sizer, .masonry__brick {
+.masonry .grid-sizer {
    width: 360px;
 }
 
 .masonry__brick {
-   float: left;
+   position: absolute;
+   align-content: center;
    padding: 0 20px;
 }
 
