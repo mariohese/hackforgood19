@@ -1820,6 +1820,35 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
+/* -------------------------------------------------------------------
+ * ## header Login
+ * ------------------------------------------------------------------- */
+ .header__login {
+   list-style: none;
+   font-size: 23px;
+   line-height: 1;
+   margin: 0;
+   padding: 0;
+   position: absolute;
+   right: 20px;
+   top: 12px;
+}
+
+.header__login a {
+   color: #FFFFFF;
+}
+
+.header__login li {
+   display: inline-block;
+   margin-left: 5px;
+   padding-right: 0;
+}
+
+.header__login li:last-child {
+   margin-left: 0;
+}
+
+
 /* ------------------------------------------------------------------- 
  * ## header-toggle
  * ------------------------------------------------------------------- */
