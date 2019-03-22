@@ -36,6 +36,11 @@ router.get('/news1', function(req, res, next) {
   res.render('news1', { title: 'Express' });
 });
 
+/* GET clasificacion. */
+router.get('/review-tips', function(req, res, next) {
+  res.render('review-tips', { title: 'Express' });
+});
+
 
 
 
