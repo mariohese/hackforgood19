@@ -656,10 +656,26 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
-textarea,
-select {
+textarea {
    display: block;
    height: 3rem;
+   padding: 1.5rem 0;
+   border: 0;
+   outline: none;
+   color: #151515;
+   font-family: "metropolis-regular", sans-serif;
+   font-size: 1.6rem;
+   line-height: 3rem;
+   max-width: 100%;
+   background: transparent;
+   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+select {
+   display: block;
+   height: 5.5rem;
    padding: 1.5rem 0;
    border: 0;
    outline: none;
